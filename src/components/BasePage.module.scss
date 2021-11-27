@@ -1,4 +1,4 @@
-.header {
+.headerContainer {
   background: linear-gradient(
     180deg,
     rgb(254, 254, 254),
@@ -7,8 +7,8 @@
   color: black !important;
   font-weight: 500;
   justify-content: center;
-  align-items: center;
   display: flex;
+  flex-direction: row;
   text-align: center;
   justify-content: center;
 
@@ -19,7 +19,6 @@
     float: left;
     margin-left: 5px;
     background: #fafafa;
-    border: 1px solid red;
     width: 140px;
   }
 
@@ -27,24 +26,26 @@
     color: black;
     margin-left: 20px;
     width: 400px;
-    border: 1px solid green;
 
     .marker {
       width: 32px;
       height: 32px;
     }
   }
-  .searchBox {
+  .searchBoxWrapper {
     color: black;
     width: 200px;
     margin-left: 20px;
-    border: 1px solid pink;
     align-items: center;
+
+    .searchBox {
+      margin-top: 10px;
+    }
   }
 
   .loginBtn {
     border-radius: 5px;
-    border: 1px solid blue;
+    margin-top: 0px;
   }
 }
 

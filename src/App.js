@@ -3,10 +3,10 @@ import './App.css';
 import BasePage from './components/BasePage';
 import 'antd/dist/antd.css';
 
-function App() {
+function App({ t}) {
   return (
     <div>
-        <BasePage />
+        <BasePage t={t}/>
     </div>
   );
 }
