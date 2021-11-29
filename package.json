@@ -38,6 +38,9 @@
       "last 1 safari version"
     ]
   },
+  "babel": {
+    "plugins": [ "react-hot-loader/babel" ]
+  },
   "devDependencies": {
     "sass": "^1.43.5"
   }

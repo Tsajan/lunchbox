@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { hot } from 'react-hot-loader/root';
+
 import BasePage from './components/BasePage';
 import 'antd/dist/antd.css';
 
@@ -11,4 +13,4 @@ function App({ t}) {
   );
 }
 
-export default App;
+export default hot(App);

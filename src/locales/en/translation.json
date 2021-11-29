@@ -1,5 +1,8 @@
 {
     "title": "lunchbox",
-    "deliverHere": "Deliver here!",
-    "login": "Login"
+    "deliverMessage": "Deliver to",
+    "login": "Login here",
+    "text" : {
+        "search": "Text Search"
+    }
 }

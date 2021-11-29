@@ -14,17 +14,17 @@ const BasePage = () => {
         <Layout className="layout">
             <Header className={s.headerContainer}>
                 <div className={s.logo}>
-                    {t('title')}
+                    {t("title")}
                 </div>
                 <div className={s.deliveryBar}>
-                    {t('deliverHere')}
+                    {t("deliverMessage")}
                     <MapMarkerSVG className={s.marker}/>
                 </div>
                 <div className={s.searchBoxWrapper}>
-                    <Search className={s.searchBox} size='large' placeholder="Search" allowClear onSearch={() => { console.log("Handle search here")}} />
+                    <Search className={s.searchBox} size='large' placeholder={t("text.search")} allowClear onSearch={() => { console.log("Handle search here")}} />
                 </div>
                 <div className={s.loginBtn}>
-                    <Button size='large' type="primary">{t('login')}</Button>
+                    <Button size='large' type="primary">{t("login")}</Button>
                 </div>
             </Header>
             <Content style={{ padding: '0 50px' }}>
@@ -35,7 +35,6 @@ const BasePage = () => {
                 </Breadcrumb>
                 <div className="site-layout-content">Content</div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
         </Layout>
     );
 }
