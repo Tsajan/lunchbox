@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import BasePage from './components/BasePage';
+import BasePage from './components/BasePage/BasePage';
 import 'antd/dist/antd.css';
 import { hot } from 'react-hot-loader';
 
