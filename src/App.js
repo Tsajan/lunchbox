@@ -1,9 +1,8 @@
-
-import { hot } from 'react-hot-loader/root';
 import logo from './logo.svg';
 import './App.css';
 import BasePage from './components/BasePage';
 import 'antd/dist/antd.css';
+import { hot } from 'react-hot-loader';
 
 function App({ t}) {
   return (
@@ -13,4 +12,4 @@ function App({ t}) {
   );
 }
 
-export default hot(App);
+export default hot(module)(App);
