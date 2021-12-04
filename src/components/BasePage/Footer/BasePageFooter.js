@@ -1,13 +1,14 @@
-import {Layout} from 'antd';
+import { Layout } from 'antd';
 
 
-const {Footer} = Layout;
+const { Footer } = Layout;
 
-const BasePageFooter = () =>{
-    return(
-        <Footer style={{ textAlign: 'center', bottom: 0 }}>Ant Design ©2018 Created by Ant UED</Footer>
+const BasePageFooter = () => {
+    return (
+        <Footer style={{ textAlign: 'center', bottom: 0 }}>
+            Lunchbox ©2022 Created by Bitsmacro.
+        </Footer>
     )
 }
-
 
 export default BasePageFooter;
